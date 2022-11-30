@@ -14,8 +14,6 @@ export function Countdown() {
 
     timeRemaining.setHours(timeRemaining.getHours() - 1)
 
-    
-
     return (
         <div>{timeRemaining.getHours()} : {timeRemaining.getMinutes()} : {timeRemaining.getSeconds()}</div>
     )
